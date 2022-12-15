@@ -1,11 +1,15 @@
 @charset "utf-8";
 /* CSS Document */
 
+body{
+	background:#281F1F;
+}
 
 .container{
 	display:grid;
 	grid-template-columns: 40px 50px auto 50px 40px;
-	grid-template-rows: 25px 25px 25px 25px;
+	grid-template-rows: 250px 250px 250px 250px;
+	grid-gap:3px;
 	background: #000000;
 	color:antiquewhite;
 	border-style:solid;
@@ -20,19 +24,25 @@
 }
 
 
-.item-1 {
-  grid-column-start: 1;
-  grid-column-end: 1;
-  grid-row-start: 1;
-  grid-row-end: 1;
-}
+	.item-1 {
+		grid-column-start: 3;
+		grid-column-end: 3;
+		grid-row-start: 1;
+		grid-row-end: 1;
+		display: flex;
+  		justify-content: center;
+  		align-items: center;
+		
+	}
 
-.item-2 {
-  grid-column-start: 5;
-  grid-column-end: 5;
-  grid-row-start: 1;
-  grid-row-end: 1;
-}
+	.item-2 {
+		grid-column-start: 5;
+		grid-column-end: 5;
+		grid-row-start: 1;
+		grid-row-end: 1;
+		
+
+	}
 
 .item-3 {
   grid-column-start: 1;
