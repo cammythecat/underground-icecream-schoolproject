@@ -61,7 +61,7 @@ h3{
 		padding-left:10px;
 		padding-right: 10px;
 		width:500px;
-		Height:250px;
+		Height:200px;
 		Background:black;
 	}
 
@@ -74,3 +74,23 @@ h3{
 		align-self: center;
 	}
 
+.item-tekst2 {
+		grid-column-start: 4;
+		grid-column-end: 4;
+		grid-row-start: 3;
+		grid-row-end: 3;
+		justify-self:center;
+		align-self:center;
+		padding-left:10px;
+		padding-right: 10px;
+		width:500px;
+		Height:200px;
+		Background:black;
+}
+	
+	
+	
+	
+	
+	
+	
