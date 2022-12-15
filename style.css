@@ -2,15 +2,14 @@
 /* CSS Document */
 
 body{
-	background:#281F1F;
+	background:#838383;
 }
 
 .container{
-	display:grid;
-	grid-template-columns: 40px 50px auto 50px 40px;
-	grid-template-rows: 250px 250px 250px 250px;
-	grid-gap:3px;
-	background: #000000;
+	display:inline-grid;
+	grid-template-columns: 1fr 1fr auto 1fr 1fr;
+	grid-template-rows: 300px 300px 300px;
+	grid-gap:30px;
 	color:antiquewhite;
 	border-style:solid;
 	border-color: red;
@@ -21,40 +20,57 @@ body{
 .item{
 	border-style:solid;
 	
+	
 }
 
 
-	.item-1 {
+	.item-undergroundicecream {
 		grid-column-start: 3;
 		grid-column-end: 3;
 		grid-row-start: 1;
 		grid-row-end: 1;
-		display: flex;
-  		justify-content: center;
-  		align-items: center;
+  		justify-self: center;
+  		align-self: start;
 		
 	}
 
-	.item-2 {
-		grid-column-start: 5;
-		grid-column-end: 5;
+	.item-neonsign {
+		grid-column-start: 3;
+		grid-column-end: 3;
 		grid-row-start: 1;
 		grid-row-end: 1;
+		Margin:5px;
+  		justify-self:center;
+  		align-self:end;
 		
 
 	}
 
-.item-3 {
-  grid-column-start: 1;
-  grid-column-end: 1;
-  grid-row-start: 4;
-  grid-row-end: 4;
+h3{
+	padding-left:190px;
+	
 }
 
-.item-4 {
-  grid-column-start: 5;
-  grid-column-end: 5;
-  grid-row-start: 4;
-  grid-row-end: 4;
-}
+	.item-tekst1 {
+		grid-column-start: 2;
+		grid-column-end: 2;
+		grid-row-start: 2;
+		grid-row-end: 2;
+		justify-self:center;
+		align-self:center;
+		padding-left:10px;
+		padding-right: 10px;
+		width:500px;
+		Height:250px;
+		Background:black;
+	}
+
+	.item-picture1 {
+		grid-column-start: 4;
+		grid-column-end: 4;
+		grid-row-start: 2;
+		grid-row-end: 2;
+		justify-self:center;
+		align-self: center;
+	}
 
