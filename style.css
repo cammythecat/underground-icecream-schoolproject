@@ -51,8 +51,8 @@ font-size:20px
 }
 
 .item{
-	justify-items: center;
-	align-items: center;
+	text-align: center;
+	
 }
 
 .item2{
@@ -90,7 +90,7 @@ font-size:20px
 
 	}
 
-h2{
+h1, h2{
 	font-size:40px;
 	
 	
@@ -108,7 +108,7 @@ h2{
 		padding-left:10px;
 		padding-right: 10px;
 		width:800px;
-		Height:200px;
+		Height:250px;
 		Background:black;
 	}
 
@@ -178,7 +178,7 @@ h2{
 		padding-left:10px;
 		padding-right: 10px;
 		width:800px;
-		Height:200px;
+		Height:250px;
 		Background:black;
 	
 }
@@ -192,6 +192,12 @@ h2{
 		align-self: center;
 	
 }
+
+.footer{
+	
+}
+
+
 
 @media only screen and (max-width: 600px){
 	.item {
