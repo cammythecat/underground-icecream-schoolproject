@@ -7,6 +7,15 @@ body{
 
 }
 
+li, a{
+	text-decoration: none;
+	padding:1px;
+	margin:5px;
+	list-style: none;
+	font-size:40px
+	
+}
+
 *{font-family: caraque-solid, sans-serif;
 font-weight: 400;
 font-style: normal;
@@ -232,6 +241,16 @@ h1, h2{
 	grid-column-end: 4;
 }
 
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 600px){
 	.item {
 		display:none;
@@ -257,6 +276,7 @@ h1, h2{
 	justify-self:center;
 	align-self:center;
 	}	
+	
 	
 }
 
