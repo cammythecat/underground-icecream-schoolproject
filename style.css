@@ -79,14 +79,15 @@ font-size:20px
 	
 }
 
+.undergroundicecream{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-gap:180px;
+}
 
 .item-undergroundicecream {
-		grid-column-start: 3;
-		grid-column-end: 3;
-		grid-row-start: 1;
-		grid-row-end: 1;
-  		justify-self: center;
-  		align-self: start;
+		justify-self: center;
+  		align-self: center;
 		
 	}
 
@@ -97,19 +98,20 @@ font-size:20px
 		grid-row-end: 1;
 		Margin:5px;
   		justify-self:center;
-  		align-self:end;
-		animation-name:neon;
-  		animation-duration: 4s;
+  		align-self:center;
+		
+	/*animation-name:neon;
+  		animation-duration: 1s;*/
 		
 
 	}
-
+/*
 @keyframes neon{
 	from{background-image:url("images/since 1977 1.png")}
 	to{background-image:url("images/since 1977 2.png")}
 	
 }
-
+*/
 h1, h2{
 	font-size:40px;
 	color:antiquewhite;
