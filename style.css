@@ -98,9 +98,17 @@ font-size:20px
 		Margin:5px;
   		justify-self:center;
   		align-self:end;
+		animation-name:neon;
+  		animation-duration: 4s;
 		
 
 	}
+
+@keyframes neon{
+	from{background-image:url("images/since 1977 1.png")}
+	to{background-image:url("images/since 1977 2.png")}
+	
+}
 
 h1, h2{
 	font-size:40px;
@@ -241,7 +249,7 @@ h1, h2{
 	grid-column-start: 4;
 	grid-column-end: 4;
 	position: fixed;
-  	bottom: 120px;
+  	bottom: 60px;
  	right: 0;
 }
 
