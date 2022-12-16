@@ -57,7 +57,7 @@ font-size:20px
 
 .item2{
 	border:solid;
-	border-width: px;
+	border-width: 10px;
 	border-color:#000000;
 	
 	
@@ -92,6 +92,7 @@ font-size:20px
 
 h1, h2{
 	font-size:40px;
+	color:antiquewhite;
 	
 	
 	
@@ -194,10 +195,40 @@ h1, h2{
 }
 
 .footer{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows:80px;
+	grid-gap:10px;
+		
 	
 }
 
+.footercontact{
+	background:#000000;
+	justify-self:end;
+	align-self:center;
+	padding-left:10px;
+	padding-right:10px;
+	grid-column-start: 3;
+	grid-column-end: 3;
+	position: fixed;
+  	bottom: 0;
+ 	right: 0;
+	border:solid;
+	border-color:#C61114;
+	border-width:5px;
+	
 
+}
+
+.instagram{
+	justify-self:end;
+	align-self:center;
+	padding-left:10px;
+	padding-right:10px;
+	grid-column-start: 4;
+	grid-column-end: 4;
+}
 
 @media only screen and (max-width: 600px){
 	.item {
