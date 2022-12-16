@@ -2,7 +2,9 @@
 /* CSS Document */
 
 body{
-	background:#838383;
+	background: #808080;
+	background-image:url("images/wall-6.jpg");
+
 }
 
 *{font-family: caraque-solid, sans-serif;
@@ -57,7 +59,7 @@ font-size:20px
 
 .item2{
 	border:solid;
-	border-width: 10px;
+	border-width: 5px;
 	border-color:#000000;
 	
 	
