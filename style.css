@@ -64,13 +64,16 @@ font-size:20px
 
 .item{
 	text-align: center;
+	border:solid;
+	border-width: 1px;
+	border-color:antiquewhite;
 	
 }
 
 .item2{
 	border:solid;
-	border-width: 5px;
-	border-color:#000000;
+	border-width: 1px;
+	border-color:antiquewhite;
 	
 	
 	
@@ -100,18 +103,8 @@ font-size:20px
   		justify-self:center;
   		align-self:center;
 		
-	/*animation-name:neon;
-  		animation-duration: 1s;*/
-		
-
 	}
-/*
-@keyframes neon{
-	from{background-image:url("images/since 1977 1.png")}
-	to{background-image:url("images/since 1977 2.png")}
-	
-}
-*/
+
 h1, h2{
 	font-size:40px;
 	color:antiquewhite;
@@ -237,26 +230,24 @@ h1, h2{
   	bottom: 0;
  	right: 0;
 	border:solid;
-	border-color:#C61114;
-	border-width:5px;
+	border-color:antiquewhite;
+	border-width:1px;
 	
 
 }
 
 .instagram{
-	justify-self:end;
-	align-self:center;
-	padding-left:10px;
-	padding-right:10px;
-	grid-column-start: 4;
-	grid-column-end: 4;
 	position: fixed;
   	bottom: 60px;
  	right: 0;
 }
 
 
-
+.uparrow{
+	position:absolute;
+	left:0;
+	
+}
 
 
 
@@ -272,9 +263,7 @@ h1, h2{
 	.item2{
 		display:none;
 	}
-	.footer{
-		display:none;
-	}
+	
 	.arrowup{
 		display:none;
 	}
@@ -290,7 +279,10 @@ h1, h2{
 	justify-self:center;
 	align-self:center;
 	}	
+	.undergroundicecream{
+	display:none;
 	
+}
 	
 }
 
