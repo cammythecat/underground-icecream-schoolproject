@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body{
-	background: #808080;
+	background:#000000;
 	background-image:url("images/wall-7.jpg");
 
 }
@@ -321,6 +321,41 @@ h1, h2{
 
 
 
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color:#D53133;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color:#0059FF;
+}
+
+.container1 {
+  border-radius: 5px;
+  background-color:antiquewhite;
+  padding: 20px;
+	margin:50px;
+}
+
+
+
+
+
 
 
 @media only screen and (max-width: 600px){
@@ -356,13 +391,26 @@ h1, h2{
 	grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr;
 	margin:20px;
 	}
+.yoghurtgrid{
+	display:grid;
+	grid-template-columns: 1fr;
+	grid-template-rows:1fr 1fr 1fr;
+	margin:20px;
+	}
 
-	
+
 	
 }
 
 
-
+@media only screen and (min-width: 600px){
+	
+	.frontpagetext{
+		display:none;
+	}
+	
+	
+}
 
 
 
