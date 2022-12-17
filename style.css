@@ -84,10 +84,7 @@ a:hover {
 	
 }
 	
-.item3{
-	width:100px;	
-	
-}
+
 
 .icecreamgrid{
 	display:grid;
@@ -169,11 +166,15 @@ a:hover {
 	grid-gap:50px;
 	margin-left:50px;
 	margin-right:50px;
+	
 }
 
 .item-undergroundicecream {
 		justify-self: center;
   		align-self: center;
+	background: rgb(36,25,25);
+	background: radial-gradient(circle, rgba(36,25,25,1) 50%, rgba(148,187,233,0) 71%);
+	
 		
 	}
 
@@ -182,10 +183,11 @@ a:hover {
 		grid-column-end: 3;
 		grid-row-start: 1;
 		grid-row-end: 1;
-		Margin:5px;
+		Margin-top:2px;
+		margin-bottom:2px;
   		justify-self:center;
-  		align-self:top;
-		height:100px;
+  		align-self:center;
+		
 		
 	}
 
@@ -408,9 +410,14 @@ input[type=submit]:hover {
 		display:none;
 	}
 	
-	.arrowup{
+	.uparrow{
 		display:none;
 	}
+	
+	.frontpagepicture{
+		display:none;
+	}
+	
 	.headerbox{
 	display:grid;
 	grid-template-columns:1fr;
@@ -458,7 +465,9 @@ input[type=submit]:hover {
 	.frontpagetext{
 		display:none;
 	}
-	
+	.break{
+		display:none;
+	}
 	
 }
 
