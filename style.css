@@ -4,6 +4,7 @@
 body{
 	background:#000000;
 	background-image:url("images/wall-7.jpg");
+	margin:0px;
 
 }
 
@@ -81,10 +82,10 @@ a:hover {
 	border-width: 1px;
 	border-color:black;
 	
+}
 	
-	
-	
-	
+.item3{
+	width:100px;	
 	
 }
 
@@ -183,7 +184,8 @@ a:hover {
 		grid-row-end: 1;
 		Margin:5px;
   		justify-self:center;
-  		align-self:center;
+  		align-self:top;
+		height:100px;
 		
 	}
 
@@ -217,7 +219,7 @@ h1, h2{
 		grid-row-start: 2;
 		grid-row-end: 2;
 		justify-self:center;
-		align-self: center;
+		align-self:center;
 	}
 
 .item-tekst2 {
