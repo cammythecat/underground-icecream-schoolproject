@@ -3,7 +3,7 @@
 
 body{
 	background: #808080;
-	background-image:url("images/wall-6.jpg");
+	background-image:url("images/wall-7.jpg");
 
 }
 
@@ -56,6 +56,10 @@ font-size:20px
 	justify-self: center;
 	align-self:center;
 }
+.border1{
+	border-style:solid;
+	border-color:antiquewhite;
+}
 
 .link2{
 	justify-self: center;
@@ -80,10 +84,70 @@ font-size:20px
 	
 }
 
+.icecreamgrid{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows:1fr 1fr;
+	grid-gap:30px;
+	margin:100px;
+	justify-items: center;
+	align-items: center;
+	
+	
+	
+}
+
+.icecream{
+	jusify-self:center;
+	align-self:center;
+	
+	
+
+}
+
+.icecreamtext{
+	color:antiquewhite;
+	text-align:center;
+	background-color:#000000;
+	
+}
+
+
+.yoghurtgrid{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows:1fr;
+	grid-gap:30px;
+	margin:100px;
+	justify-items: center;
+	align-items: center;
+	
+	
+	
+}
+
+.yoghurt{
+	jusify-self:center;
+	align-self:center;
+	
+	
+
+}
+
+.yoghurttext{
+	color:antiquewhite;
+	text-align:center;
+	background-color:#000000;
+	
+}
+	
+
 .undergroundicecream{
 	display:grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-	grid-gap:180px;
+	grid-gap:50px;
+	margin-left:50px;
+	margin-right:50px;
 }
 
 .item-undergroundicecream {
@@ -286,6 +350,14 @@ h1, h2{
 	display:none;
 	
 }
+	.icecreamgrid{
+	display:grid;
+	grid-template-columns: 1fr;
+	grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr;
+	margin:20px;
+	}
+
+	
 	
 }
 
