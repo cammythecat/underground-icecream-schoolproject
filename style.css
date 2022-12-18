@@ -171,12 +171,6 @@ a:hover {
 	
 }
 
-.item-undergroundicecream {
-		
-	
-	
-		
-	}
 
 .item-neonsign {
 		grid-column-start: 3;
@@ -309,16 +303,14 @@ h1, h2{
 
 .footercontact{
 	background:#000000;
-	justify-self:start;
+	justify-self:end;
 	align-self:center;
-	padding-left:20px;
-	padding-right:20px;
-	padding-bottom:20px;
+	padding:10px;
 	grid-column-start: 3;
 	grid-column-end: 3;
 	position: fixed;
-  	bottom: 0;
- 	right: 0;
+  	bottom: 0px;
+ 	right: 0px;
 	border:solid;
 	border-color:antiquewhite;
 	border-width:1px;
@@ -328,18 +320,12 @@ h1, h2{
 
 .instagram{
 	position: fixed;
-  	bottom: 60px;
+  	bottom: 70px;
  	right: 0;
 	background: rgb(36,25,25);
 	background: radial-gradient(circle, rgba(36,25,25,1) 50%, rgba(148,187,233,0) 71%);
 }
 
-
-.uparrow{
-	position:absolute;
-	left:0;
-	
-}
 
 .disclaimer{
 	text-align:center;
